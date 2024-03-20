@@ -1,0 +1,9 @@
+VITE Tooling
+https://vitejs.dev/guide/
+
+REACT DOCS
+https://react.dev/learn/start-a-new-react-project
+
+REACT ROUTER
+https://reactrouter.com/en/main
+
