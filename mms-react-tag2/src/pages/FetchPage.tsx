@@ -1,6 +1,6 @@
-import EffectExercise from "../components/EffectExercise"
+
 import SingleUserExercise from "../components/SingleUserExercise"
-import UserDataExercise from "../components/UserDataExercise"
+
 
 const FetchPage = () => {
     return (
@@ -8,7 +8,7 @@ const FetchPage = () => {
             <h2>Fetch und Effect Exercise</h2>
             {/* <EffectExercise/> */}
             {/* <UserDataExercise/> */}
-            <SingleUserExercise/>
+            <SingleUserExercise />
         </div>
     )
 }
