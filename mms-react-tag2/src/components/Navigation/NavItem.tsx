@@ -1,8 +1,10 @@
-import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-
-const NavItem = ({name, href}) => {
+type NavItemType = {
+  name: string,
+  href: string
+}
+const NavItem = ({ name, href }: NavItemType) => {
   return (
     <NavLink to={href}>
       {name}

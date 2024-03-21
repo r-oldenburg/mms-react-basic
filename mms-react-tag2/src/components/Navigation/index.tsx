@@ -1,4 +1,3 @@
-import React from 'react'
 import { navData } from '../../store/navData'
 import NavItem from './NavItem'
 
