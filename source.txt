@@ -7,3 +7,11 @@ https://react.dev/learn/start-a-new-react-project
 REACT ROUTER
 https://reactrouter.com/en/main
 
+REDUX für REACT
+https://react-redux.js.org/tutorials/quick-start
+
+YUP Validation
+https://www.npmjs.com/package/yup
+
+formik forms
+https://formik.org/docs/overview
