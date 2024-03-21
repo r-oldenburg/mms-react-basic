@@ -8,5 +8,9 @@ export const navData = [
         name: "Login",
         href: "login",
         id: "456-275"
+    }, {
+        name: "Fetch",
+        href: "fetch",
+        id: "476-075"
     }
 ]

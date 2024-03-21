@@ -15,3 +15,7 @@ https://www.npmjs.com/package/yup
 
 formik forms
 https://formik.org/docs/overview
+
+
+Artikel zu useState von Stefan geteilt im chat
+https://kentcdodds.com/blog/use-state-lazy-initialization-and-function-updates
