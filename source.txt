@@ -1,6 +1,9 @@
 VITE Tooling
 https://vitejs.dev/guide/
 
+ALIAS imports
+https://dev.to/avxkim/setup-path-aliases-w-react-vite-ts-poa
+
 REACT DOCS
 https://react.dev/learn/start-a-new-react-project
 
@@ -34,3 +37,14 @@ https://github.com/kentcdodds/react-testing-library-examples
 Documentation für React Testing library
 https://testing-library.com/
 
+
+##Global State management
+Zustand JS 
+https://zustand-demo.pmnd.rs/
+
+Redux für React
+https://react-redux.js.org/tutorials/quick-start
+
+
+nodeJS import switch ESM vs CJS
+https://nodejs.org/docs/latest/api/fs.html

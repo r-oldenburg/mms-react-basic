@@ -1,10 +1,15 @@
+import { useLocalStorage } from "@/hooks/useLocalStorage";
 import { useState } from "react";
 
 const LoginForm = () => {
 
+    const local = useLocalStorage("user", {})
+    console.log(local)
+
     const INITVALUES = {
         username: "",
-        password: ""
+        password: "",
+        loggedIn: false
     }
 
     const [user, setUser] = useState(INITVALUES);
@@ -22,9 +27,14 @@ const LoginForm = () => {
     function handleSubmit(e: { preventDefault: () => void }) {
         e.preventDefault() //button wird auf reset gesetzt
         console.log("submitted", user)
-        setUser(INITVALUES)
+        user.loggedIn = true;
+        local.setStoredValue(user)
+
     }
 
+    function handleRemove() {
+        local.removeStoredValue()
+    }
     return (
         <div>
             <h2>Login form</h2>
@@ -48,6 +58,8 @@ const LoginForm = () => {
                 /><br />
                 <button type="submit">Login</button>
             </form>
+
+            <button onClick={handleRemove}>remove</button>
         </div>
     )
 }

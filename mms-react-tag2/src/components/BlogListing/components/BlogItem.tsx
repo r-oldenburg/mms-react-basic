@@ -1,13 +1,13 @@
 import styles from '../BlogListing.module.css'
 
-const BlogItem = ({ body, title, id, userId }: { body: string, title: string, id: string, userId: string }) => {
+const BlogItem = ({item }: { item: {title: string, body: string} }) => {
     return (
         <div className={styles.blogItem}>
-            <h4>{title}</h4>
-            <p>{body}</p>
+            <h4>{item.title}</h4>
+            <p>{item.body}</p>
 
         </div>
     )
-}
+}   
 
 export default BlogItem
