@@ -12,5 +12,11 @@ export const navData = [
         name: "Fetch",
         href: "fetch",
         id: "476-075"
-    }
+    },
+    {
+        name: "Blog",
+        href: "blog",
+        id: "476-179"
+    },
+
 ]

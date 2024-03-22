@@ -19,3 +19,18 @@ https://formik.org/docs/overview
 
 Artikel zu useState von Stefan geteilt im chat
 https://kentcdodds.com/blog/use-state-lazy-initialization-and-function-updates
+
+
+abortController
+https://developer.mozilla.org/en-US/docs/Web/API/AbortController/abort
+
+AXIOS - request library
+https://axios-http.com/docs/intro
+
+
+React Testing library => Beispiele für Testing in React applications
+https://github.com/kentcdodds/react-testing-library-examples
+
+Documentation für React Testing library
+https://testing-library.com/
+

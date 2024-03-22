@@ -15,7 +15,7 @@ const SingleUserExercise = () => {
 
         async function getUser() {
             setIsLoading(true)
-            const response = await fetch(`https://jsonplaceholder.typicode.com/users/${userId}`, { signal: signal })
+            const response = await fetch(`https://jsonplaceholder.typicode.com/users/${userId}`, { signal:signal })
             const data = await response.json()
             console.log("data", data)
             setUser(data)
